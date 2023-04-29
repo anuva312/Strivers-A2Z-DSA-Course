@@ -8,14 +8,13 @@ const findDataTypeLength = function (datatype) {
     case "Character":
       return 1;
     case "Integer":
-      return 2;
-    case "Long":
     case "Float":
       return 4;
+    case "Long":
     case "Double":
       return 8;
     default:
-      return 0;
+      return -1;
   }
 };
 
