@@ -6,16 +6,20 @@ Geek is learning a new programming language. As data type forms the most fundame
 
 _Data Types :_ **Character, Integer, Long, Float and Double**
 
-Example 1 :
+**Example 1 :**
 
 ```
 Input: Character
 Output: 1
 ```
 
-Example 2 :
+**Example 2 :**
 
 ```
 Input: Integer
 Output: 4
 ```
+
+**Your Task:**
+
+Complete the function dataTypeSize() which takes a string as input and returns the size of the data type represented by the given string in byte unit.
