@@ -1,4 +1,4 @@
-# 1. If Else Statement
+# 1. If Else Statements
 
 ## Problem
 

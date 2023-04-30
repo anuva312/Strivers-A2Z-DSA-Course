@@ -1,4 +1,4 @@
-# 1. If Else Statement
+# 1. Switch Statement
 
 ## Problem
 
