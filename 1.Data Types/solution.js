@@ -1,7 +1,7 @@
 let readline = require("readline");
 
-let inputs = [];
 let count = 0;
+let testcasesCount = null;
 
 const findDataTypeLength = function (datatype) {
   switch (datatype) {
@@ -24,10 +24,12 @@ const rl = readline.createInterface({
 });
 
 rl.on("line", (data) => {
-  inputs.push(data);
-  if (inputs.length > 1) {
-    console.log(findDataTypeLength(inputs[++count]));
-    if (count === parseInt(inputs[0])) {
+  if (testcasesCount === null) {
+    testcasesCount = parseInt(data);
+  } else {
+    count++;
+    console.log(findDataTypeLength(data));
+    if (count === testcasesCount) {
       rl.close();
     }
   }
