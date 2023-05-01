@@ -11,3 +11,4 @@ These are my solutions to the problems in [Strivers A2Z DSA Course/Sheet](https:
 3. [Switch Statement](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/3.%20Switch%20Statement)
 4. [For Loops](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/4.%20For%20Loops)
 5. [Functions](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/5.%20Functions)
+6. [Patterns](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/6.%20Patterns)
