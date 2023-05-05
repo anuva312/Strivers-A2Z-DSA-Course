@@ -22,4 +22,3 @@ if __name__ == '__main__':
         N = int(input().strip())
         ob = Solution()
         ob.printTriangle(N)
-# } Driver Code Ends
