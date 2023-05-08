@@ -1,3 +1,16 @@
+# Pattern to be printed
+
+# Example:
+
+# Input: 5
+
+# Output:
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
 class Solution:
     def printTriangle(self, N):
         for i in range(0,N):
@@ -7,7 +20,7 @@ class Solution:
                 elif(j<N-i):
                     print(" ",end="")
                 else:
-                    print("",end="")
+                    break
             print("\n",end="")
 
 if __name__ == '__main__':

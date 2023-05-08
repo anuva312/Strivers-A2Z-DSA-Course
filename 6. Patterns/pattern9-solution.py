@@ -1,3 +1,21 @@
+# Pattern to be printed
+
+# Example:
+
+# Input: 5
+
+# Output:
+#     *
+#    * *
+#   * * *
+#  * * * *
+# * * * * *
+# * * * * *
+#  * * * *
+#   * * *
+#    * *
+#     *
+
 class Solution:
     def printDiamond(self, N):
         for i in range(0,2*N):
@@ -31,6 +49,30 @@ class Solution:
                     elif(j<-(N-i)):
                         print(" ",end="")
             print("\n",end="")
+    
+    def printUpperTriangle(self,N):
+        for i in range(0,N):
+            for j in range(1,2*N):
+                if(j in range(N-i,N+i+1)):
+                    print("*",end="")
+                elif(j<N-i):
+                    print(" ",end="")
+                else:
+                    break
+            print("\n",end="")
+    
+    def printLowerTriangle(self,N):
+        for i in range(N-1,-1,-1):
+            for j in range(1,2*N):
+                if(j in range(N-i,N+i+1)):
+                    print("*",end="")
+                elif(j<N-i):
+                    print(" ",end="")
+                else:
+                    break
+            print("\n",end="")
+
+
 
 
 if __name__ == '__main__':
@@ -38,4 +80,6 @@ if __name__ == '__main__':
     for _ in range(t):
         N = int(input())
         ob = Solution()
-        ob.printDiamond(N)
+        # ob.printDiamond(N)
+        ob.printUpperTriangle(N)
+        ob.printLowerTriangle(N)
