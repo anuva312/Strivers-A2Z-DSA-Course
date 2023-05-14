@@ -31,7 +31,7 @@ class Solution:
                     value = value+1
             print()
 
-    def printTriangle(self,N):
+    def printTriangleOptimized(self,N):
         for i in range (0,2*N-1):
             for j in range(0,2*N-1):
                 distance = min(i,j,2*N-2-i,2*N-2-j)
@@ -43,4 +43,4 @@ if __name__ == '__main__':
     for _ in range(t):
         N = int(input().strip())
         ob = Solution()
-        ob.printTriangle(N)
+        ob.printTriangleOptimized(N)
