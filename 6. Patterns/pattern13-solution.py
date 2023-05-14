@@ -1,3 +1,16 @@
+# Pattern to be printed
+
+# Example:
+
+# Input: 5
+
+# Output:
+# 1
+# 2 3
+# 4 5 6
+# 7 8 9 10
+# 11 12 13 14 15
+
 class Solution:
     def printTriangle(self, N):
         count = 1
@@ -7,7 +20,15 @@ class Solution:
                     print(count,end=" ")
                     count=count+1
                 else:
-                    break;
+                    break
+            print("\n",end="")
+
+    def printTriangleRefactored(self, N):
+        count = 1
+        for i in range(0,N):
+            for _ in range(0,i+1):
+                print(count,end=" ")
+                count=count+1
             print("\n",end="")
 
 if __name__ == '__main__':
@@ -15,4 +36,4 @@ if __name__ == '__main__':
     for _ in range(t):
         N = int(input().strip())
         ob = Solution()
-        ob.printTriangle(N)
+        ob.printTriangleRefactored(N)
