@@ -1,3 +1,15 @@
+# Pattern to be printed
+
+# Example:
+
+# Input: 4
+
+# Output:
+#    A
+#   ABA
+#  ABCBA
+# ABCDCBA
+
 import string 
 
 class Solution:
@@ -18,11 +30,23 @@ class Solution:
                         print(alphabets[count],end="")
                 else:
                     print(" ",end="")
-            print("\n",end="")
+            print()
+
+    def printTriangleOptimized(self, N):
+        for i in range(N):
+            print(" " * (N - i - 1), end="")
+            
+            for j in range(i + 1):
+                print(chr(65 + j), end="")
+            
+            for j in range(i, 0, -1):
+                print(chr(65 + j - 1), end="")
+            
+            print()
 
 if __name__ == '__main__':
     t = int(input())
     for _ in range(t):
         N = int(input().strip())
         ob = Solution()
-        ob.printTriangle(N)
+        ob.printTriangleOptimized(N)

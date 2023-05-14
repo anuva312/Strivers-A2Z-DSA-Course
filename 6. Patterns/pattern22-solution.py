@@ -1,3 +1,18 @@
+# Pattern to be printed
+
+# Example:
+
+# Input: 4
+
+# Output:
+# 4 4 4 4 4 4 4
+# 4 3 3 3 3 3 4
+# 4 3 2 2 2 3 4
+# 4 3 2 1 2 3 4
+# 4 3 2 2 2 3 4
+# 4 3 3 3 3 3 4
+# 4 4 4 4 4 4 4
+
 class Solution:
     def printTriangle(self, N):
         for i in range (0,2*N-1):
@@ -14,7 +29,14 @@ class Solution:
                     count = count-1
                 elif(j>=2*N-1-row and count == 0):
                     value = value+1
-            print("\n",end="")
+            print()
+
+    def printTriangle(self,N):
+        for i in range (0,2*N-1):
+            for j in range(0,2*N-1):
+                distance = min(i,j,2*N-2-i,2*N-2-j)
+                print(N-distance, end=" ")
+            print()
 
 if __name__ == '__main__':
     t = int(input())
