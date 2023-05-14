@@ -1,3 +1,20 @@
+# Pattern to be printed
+
+# Example:
+
+#  Input: 5
+
+#  Output:
+#  *        *
+#  **      **
+#  ***    ***
+#  ****  ****
+#  **********
+#  ****  ****
+#  ***    ***
+#  **      **
+#  *        *
+
 class Solution:
     def printTriangle(self, N):
         for i in range(0,2*N-1):
