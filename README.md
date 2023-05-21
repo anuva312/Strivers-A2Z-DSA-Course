@@ -20,3 +20,7 @@ These are my solutions to the problems in [Strivers A2Z DSA Course/Sheet](https:
 
 7. [Count Digits](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/7.%20Count%20Digits)
 8. [Reverse A Number](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/8.%20Reverse%20A%20Number)
+9. [Palindrome](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/9.%20Palindrome)
+10. [LCM and GCD](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/10.%20LCM%20and%20GCD)
+11. [Armstrong Numbers](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/11.%20Armstrong%20Numbers)
+12. [Sum of Divisors](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/12.%20Sum%20of%20Divisors)
