@@ -1,4 +1,4 @@
-# 7. Count Digits
+# 1. Count Digits
 
 ## Problem
 
