@@ -1,4 +1,4 @@
-# 12. Sum of Divisors
+# 6. Sum of Divisors
 
 Given a positive integer N., The task is to find the value of sum of F(i) where function F(i) for the number i be defined as the sum of all divisors of 'i'.
 

@@ -1,4 +1,4 @@
-# 6. Patterns
+# Patterns
 
 **Task:**
 

@@ -1,4 +1,4 @@
-# 11. Armstrong Numbers
+# 5. Armstrong Numbers
 
 For a given 3 digit number, find whether it is armstrong number or not. An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. Return _"Yes"_ if it is a armstrong number else return _"No"_.
 

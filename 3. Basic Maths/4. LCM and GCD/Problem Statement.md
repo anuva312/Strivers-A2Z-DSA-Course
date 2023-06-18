@@ -1,4 +1,4 @@
-# 10. LCM and GCD
+# 4. LCM and GCD
 
 Given two numbers A and B. The task is to find out their LCM and GCD.
 

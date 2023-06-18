@@ -1,4 +1,4 @@
-# 9. Palindrome
+# 3. Palindrome
 
 Given an integer x, return true if x is a _palindrome_, and false otherwise.
 

@@ -1,4 +1,4 @@
-# 8. Reverse A Number
+# 2. Reverse A Number
 
 ## Problem 1
 
