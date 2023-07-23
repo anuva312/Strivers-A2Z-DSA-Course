@@ -10,7 +10,3 @@ def numberOfWays(n,m,edges):
             edges[i] = countMap[i+1]
         else:
             edges[i] = 0
-
-# arr = [1, 2,3,4,5]
-# numberOfWays(5,5,arr)
-# print("After processing",arr)
