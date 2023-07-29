@@ -1,4 +1,6 @@
-# User function Template for python3
+# Time Complexity: O(log N)
+# Space Complexity: O(log N) (due to the recursion stack) + O(1) (for the auxiliary space) = O(log N)
+# Auxiliary Space: O(1)
 class Solution:
     def __init__(self):
         self._result = 1
@@ -18,11 +20,6 @@ class Solution:
         self.checkPalindrome(S, 0, len(S) - 1)
         return self.get_result()
 
-
-# {
-# Driver Code Starts
-# Initial Template for Python 3
-
 if __name__ == "__main__":
     T = int(input())
     for i in range(T):
@@ -30,5 +27,3 @@ if __name__ == "__main__":
         ob = Solution()
         answer = ob.isPalindrome(S)
         print(answer)
-
-# } Driver Code Ends
