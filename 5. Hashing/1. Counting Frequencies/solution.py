@@ -10,3 +10,15 @@ def numberOfWays(n,m,edges):
             edges[i] = countMap[i+1]
         else:
             edges[i] = 0
+
+def frequencyCount(arr, N, P):
+    frequency_count = []
+    for i in range(N):
+        frequency_count.append(0)
+    for element in arr:
+        if(element <= N):
+            frequency_count[element-1]+=1
+    for i in range(N):
+        arr[i] = frequency_count[i]
+
+

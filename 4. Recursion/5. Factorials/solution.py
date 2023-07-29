@@ -1,5 +1,14 @@
-# User function Template for python3
+# Brute Force : 
+#   Time Complexity : O(k)
+#   Space Complexity : O(k)
 
+# Optimized :
+#   Time Complexity : O(k)
+#   Space Complexity : O(1)
+
+#       where k is the number of factorials that can be computed before the new_val variable exceeds N
+#       for very large values of N, we can say :
+#       k ≈ log(N)
 
 class Solution:
     def __init__(self):
@@ -17,11 +26,16 @@ class Solution:
         self.factorials_list.append(1)
         self.findAllFactorialNumbers(N)
         return self.factorials_list
-
-
-# {
-# Driver Code Starts
-# Initial Template for Python 3
+    
+    def factorialNumbersOptimized(self, N):
+        factorials_list = []
+        curr_factorial = 1
+        next_num = 2
+        while(curr_factorial<=N):
+            factorials_list.append(curr_factorial)
+            curr_factorial *= next_num
+            next_num+=1
+        return factorials_list
 
 if __name__ == "__main__":
     t = int(input())
@@ -33,4 +47,3 @@ if __name__ == "__main__":
             print(i, end=" ")
         print()
 
-# } Driver Code Ends
