@@ -1,5 +1,6 @@
-# User function Template for python3
-
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+# Auxiliary Space: O(n)
 
 class Solution:
     def __init__(self):
@@ -26,12 +27,6 @@ class Solution:
         self.update_fibonacci_list(n, 2)
         return self.get_fibonacci_list()
 
-
-# {
-# Driver Code Starts
-# Initial Template for Python 3
-
-# contributed by RavinderSinghPB
 if __name__ == "__main__":
     t = int(input())
     for tcs in range(t):
@@ -40,4 +35,3 @@ if __name__ == "__main__":
         for i in range(len(res)):
             print(res[i], end=" ")
         print()
-# } Driver Code Ends
