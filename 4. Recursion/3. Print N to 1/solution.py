@@ -1,16 +1,12 @@
-# User function Template for python3
-
+# Time Complexity: O(N)
+# Space Complexity: O(N) (due to the call stack)
+# Auxiliary Space: O(1)
 
 class Solution:
     def printNos(self, n):
         if n >= 1:
             print(n, end=" ")
             self.printNos(n - 1)
-
-
-# {
-# Driver Code Starts
-# Initial Template for Python 3
 
 if __name__ == "__main__":
     t = int(input())
@@ -19,4 +15,3 @@ if __name__ == "__main__":
         ob = Solution()
         ob.printNos(N)
         print()
-# } Driver Code Ends
