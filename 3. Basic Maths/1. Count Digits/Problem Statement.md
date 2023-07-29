@@ -40,4 +40,4 @@ Your task is to complete the function evenlyDivides() which takes an integer N a
 **Expected Space Complexity :** O(1)
 
 **Constraints:**  
-1<=N<=105
+1<=N<=10^5
