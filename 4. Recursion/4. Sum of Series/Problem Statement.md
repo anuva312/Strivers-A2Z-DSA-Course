@@ -1,4 +1,4 @@
-# 1. Sum of Series
+# 4. Sum of Series
 
 ## Problem
 

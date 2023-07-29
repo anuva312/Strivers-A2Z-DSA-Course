@@ -1,4 +1,4 @@
-# 3. Reverse an Array
+# 6. Reverse an Array
 
 ## Problem
 

@@ -1,4 +1,4 @@
-# 2. Factorials
+# 5. Factorials
 
 ## Problem
 
