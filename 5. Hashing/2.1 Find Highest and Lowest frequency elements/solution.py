@@ -1,3 +1,7 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+# Auxiliary Space: O(n)
+
 def getFrequencies(v) : 
     frequency_count = {}
     highest_frequency_elements = []

@@ -1,3 +1,7 @@
+// Time Complexity: O(n log n)
+// Space Complexity: O(1)
+// Auxiliary Space: O(1)
+
 const maxFrequency = function (nums, k) {
   nums.sort((a, b) => a - b);
   let start = 0;
@@ -13,6 +17,3 @@ const maxFrequency = function (nums, k) {
   }
   return maxPossibleFrequency;
 };
-
-const arr = [6, 3, 9];
-console.log(maxFrequency(arr, 2));
