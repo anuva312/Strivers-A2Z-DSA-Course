@@ -1,3 +1,7 @@
+# Time Complexity: O(N)
+# Space Complexity: O(1)
+# Auxiliary Space: O(1)
+
 def frequencyCount(arr,N,P):
     i=0
     while i < N:

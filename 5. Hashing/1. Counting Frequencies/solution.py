@@ -1,3 +1,7 @@
+# Time Complexity: O(n)
+# Space Complexity: O(m)
+# Auxiliary Space: O(m)
+
 def numberOfWays(n,m,edges):
     countMap = {}
     for element in edges:
@@ -10,6 +14,11 @@ def numberOfWays(n,m,edges):
             edges[i] = countMap[i+1]
         else:
             edges[i] = 0
+
+            
+# Time Complexity: O(N)
+# Space Complexity: O(N)
+# Auxiliary Space: O(N)
 
 def frequencyCount(arr, N, P):
     frequency_count = []
