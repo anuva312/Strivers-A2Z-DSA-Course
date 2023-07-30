@@ -4,6 +4,8 @@
 
 // The below code can correctly check if a given string is a palindrome or not. However, both these approaches have higher space complexity, and for very long strings, it may lead to stack overflow errors.
 
+// The alternate solution given in "solution.py" file is a better solution
+
 class Solution {
   isPalindrome(S) {
     const stringLength = S.length;
