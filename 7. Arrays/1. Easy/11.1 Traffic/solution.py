@@ -22,6 +22,32 @@ def traffic(n: int, m: int, vehicle: [int]) -> int:
             max_count = current_count
     return max_count
 
+def trafficAlternative(n: int, m: int, vehicle: [int]) -> int:
+    start=0
+    max_consecutive_ones = 0
+    current_consecutive_ones = 0
+    zeroes_count = 0
+    end = 0
+    while(end<n):
+        if(vehicle[end]==0):
+            zeroes_count+=1
+            if(zeroes_count<=m):
+                current_consecutive_ones=end-start+1
+            else:
+                while (zeroes_count>m):
+                    if(start>=end):
+                        break
+                    if(vehicle[start] == 0):
+                        zeroes_count-=1
+                    start+=1
+                    current_consecutive_ones=end-start+1
+        else:
+            current_consecutive_ones=end-start+1
+        end+=1
+        if(current_consecutive_ones>max_consecutive_ones):
+            max_consecutive_ones = current_consecutive_ones
+    return max_consecutive_ones
+
 
 
 
