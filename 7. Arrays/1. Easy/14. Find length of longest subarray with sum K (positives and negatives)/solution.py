@@ -12,4 +12,23 @@ def getLongestSubarray(nums, k):
     return longest_subarray_length
 
 
-print(getLongestSubarray([1, 2, 4, 2, -3, 2], 4))
+def getLongestSubarrayOptimized(nums, k):
+    array_length = len(nums)
+
+    previous_sums_map = {}
+    sum = 0
+    max_length = 0
+    for i in range(array_length):
+        sum += nums[i]
+        if sum == k:
+            max_length = max(max_length, i + 1)
+        rem = sum - k
+
+        if rem in previous_sums_map:
+            current_length = i - previous_sums_map[rem]
+            max_length = max(max_length, current_length)
+
+        if sum not in previous_sums_map:
+            previous_sums_map[sum] = i
+
+    return max_length
