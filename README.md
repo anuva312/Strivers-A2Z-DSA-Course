@@ -73,3 +73,9 @@ These are my solutions to the problems in [Strivers A2Z DSA Course/Sheet](https:
     2. [Find single element in unsorted array](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/7.%20Arrays/1.%20Easy/12.2%20Find%20single%20element%20in%20unsorted%20array)
 13. [Find length of longest subarray with sum K (positives)](<https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/7.%20Arrays/1.%20Easy/13.%20Find%20length%20of%20longest%20subarray%20with%20sum%20K%20(positives)>)
 14. [Find length of longest subarray with sum K (positives and negatives)](<https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/7.%20Arrays/1.%20Easy/14.%20Find%20length%20of%20longest%20subarray%20with%20sum%20K%20(positives%20and%20negatives)>)
+
+### Section 3.2 Arrays - Medium
+
+1. [Two Sum Problem](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/7.%20Arrays/2.%20Medium/1.%20Two%20Sum%20Problem)
+2. [Sort 0-1-2](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/7.%20Arrays/2.%20Medium/2.%20Sort%200-1-2)
+3. [Majority Element](https://github.com/anuva312/Strivers-A2Z-DSA-Course/tree/master/7.%20Arrays/2.%20Medium/3.%20Majority%20Element)
